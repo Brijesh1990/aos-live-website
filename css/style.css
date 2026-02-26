@@ -266,13 +266,17 @@ margin-bottom: 6% !important;
 /* SIDEBAR MOBILE */
 @media(max-width:768px){
 
-.mobile-menu{display:block;}
+.mobile-menu
+{
+display:block;
+margin-left: 90% !important;
+}
 
 .menu{
 position:fixed;
 top:0;
 left:-260px;
-width:260px;
+width:200px !important;
 height:100vh;
 background:#ddd;
 flex-direction:column;
@@ -337,11 +341,16 @@ text-decoration:none;
 color:black;
 font-weight:600;
 }
+.mobile-menu
+{
+margin-left:90% !important;    
+}
 .mobile-menu li 
 {
 text-decoration:none;
 color:black;
 list-style-type: none;
+
 }
 .mobile-menu a 
 {
